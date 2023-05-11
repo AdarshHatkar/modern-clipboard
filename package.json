@@ -1,6 +1,6 @@
 {
   "name": "modern-clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple copy to clipboard function with great compatibility ",
   "main": "dist/index.js",
   "type": "module",
