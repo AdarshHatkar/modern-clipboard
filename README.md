@@ -8,4 +8,10 @@ Simple copy to clipboard function with great compatibility
 Installation
 ------------
 
-    npm i modern-clipboard
+    npm i modern-clipboard 
+
+Import or Require
+-----------------
+ 
+    import {copyTextToClipboard} from "modern-clipboard ";
+ 
