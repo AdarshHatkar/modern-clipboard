@@ -10,9 +10,7 @@
     "test": "jest",
     "release": "release-it"
   },
-  "git": {
-    "requireBranch": "main"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdarshHatkar/modern-clipboard.git"
