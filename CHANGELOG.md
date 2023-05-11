@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-## [1.0.4] - 2023-05-11
+
 
 #### [1.0.3](https://github.com/AdarshHatkar/modern-clipboard/compare/1.0.3-2...1.0.3)
 
