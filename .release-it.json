@@ -1,7 +1,8 @@
 {
     "git": {
       "commitMessage": "chore: release v${version}",
-      "requireBranch": "main"
+      "requireBranch": "main",
+      "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
     },
     "github": {
       "release": true
@@ -10,5 +11,8 @@
       "@release-it/keep-a-changelog": {
         "filename": "CHANGELOG.md"
       }
+    },
+    "hooks": {
+      "after:bump": "npx auto-changelog -p"
     }
   }
