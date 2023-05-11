@@ -1,9 +1,5 @@
-/**
 
-Fallback function for copying text to clipboard using the old execCommand API.
 
-@param text The text to be copied to clipboard.
-*/
 function fallbackCopyTextToClipboard(text: string) {
     try {
         const textArea = document.createElement("textarea");
@@ -27,12 +23,7 @@ function fallbackCopyTextToClipboard(text: string) {
     }
 }
 
-/**
 
-Copies the given text to clipboard.
-
-@param text The text to be copied to clipboard.
-*/
 export const copyTextToClipboard = (text: string) => {
     const clipboard = navigator.clipboard;
 
