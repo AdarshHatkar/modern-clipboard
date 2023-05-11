@@ -28,7 +28,7 @@ function fallbackCopyTextToClipboard(text: string) {
     }
 }
 
-/**   awdawdawd
+/**   
 
 Copies the given text to clipboard.
 
