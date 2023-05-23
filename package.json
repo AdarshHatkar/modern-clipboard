@@ -8,7 +8,9 @@
     "tsc": "tsc ",
     "watch": "tsc  --watch",
     "test": "jest",
-    "release": "dotenv release-it"
+    "release": "dotenv release-it",
+    "checkPackageUpdates": "ncu -u",
+    "checkUnusedPackages": "depcheck"
   },
   "repository": {
     "type": "git",
